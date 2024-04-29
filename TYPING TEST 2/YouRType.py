@@ -38,7 +38,7 @@ reset.place(x=90, y=380)
 
 # DISPLAY SENTENCES
 fontStyle = tkFont.Font(family="Lucida Grande", size=25)
-text = Label(root, height='6', width='40', fg='gold', bg='#00154F', font=fontStyle, wraplength=500, anchor=CENTER,
+text = Label(root, height='3', width='40', fg='gold', bg='#00154F', font=fontStyle, wraplength=500, anchor=CENTER,
              justify=LEFT)
 text.place(x='45', y='90')
 def randomTXT():
